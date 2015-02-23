@@ -11,7 +11,56 @@ Licence : Tous droits r├®serv├®s
 /* Variables de couleurs */
 /* Variables de fonts */
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-body {
-  background-color: #1d2f3a; }
+/******************** General  ***************************/
+#sectionProgrammation {
+  background-color: #1d2f3a;
+  font-family: "Montserrat", sans-serif; }
+  #sectionProgrammation h1 {
+    margin-top: 11.96581196581197%;
+    /*  140px / 1170px = 0,1196581196581197  */
+    margin-bottom: 13.67521367521368%;
+    /* 160px / 1170px = 0,1367521367521368  */
+    color: #e7d405;
+    font-size: 48px;
+    font-weight: bold; }
+  #sectionProgrammation h2 {
+    display: inline-block;
+    color: #e7d405;
+    font-size: 24px;
+    font-weight: bold; }
+  #sectionProgrammation .btn-group {
+    width: 29.91452991452991%;
+    /* 350 / 1170 = 0,2991452991452991 */
+    float: right; }
+    #sectionProgrammation .btn-group button {
+      width: 350px; }
+  #sectionProgrammation .row {
+    margin-top: 20px; }
+  #sectionProgrammation .carretest {
+    width: 29.91452991452991%;
+    /* 350 / 1170 = 0,2991452991452991 */
+    height: 100px;
+    margin: 0 01.28205128205128% 02.56410256410256% 01.28205128205128%;
+    /* Ca ressemble ├á 0px 15px 30px 15px , donc en % ca donne :  15px / 1170 = 0,0128205128205128,   30px / 1170 = 0,0256410256410256 */
+    background-color: #e7d405; }
+
+@media screen and (max-width: 992px) {
+  #sectionProgrammation h1 {
+    font-size: 36px; }
+  #sectionProgrammation h2 {
+    font-size: 18px; }
+  #sectionProgrammation .carretest {
+    width: 46%;
+    /* 345 / 750 = 0,46 */
+    background-color: #fff; } }
+@media screen and (max-width: 768px) {
+  #sectionProgrammation h1 {
+    font-size: 30px; }
+  #sectionProgrammation h2 {
+    font-size: 16px; }
+  #sectionProgrammation .carretest {
+    width: 93.33333333333333%;
+    /* 700 / 750 = 0,9333333333333333 */
+    background-color: #594b3f; } }
 
 /*# sourceMappingURL=style.css.map */
