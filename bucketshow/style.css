@@ -43,7 +43,132 @@ Licence : Tous droits r├®serv├®s
     margin: 0 01.28205128205128% 02.56410256410256% 01.28205128205128%;
     /* Ca ressemble ├á 0px 15px 30px 15px , donc en % ca donne :  15px / 1170 = 0,0128205128205128,   30px / 1170 = 0,0256410256410256 */
     background-color: #e7d405; }
+/*************************************************************************************************************************************/
 
+img{
+	width:100%;
+	margin: 0px 0;
+}
+
+h1{
+	display:inline-block;
+	font-family:'Montserrat', sans-serif;
+	font-weight:bold;
+	color:#e7d405;
+	width: auto;
+
+}
+.margin{
+	margin-top:15px;
+	margin-bottom: 15px;
+}
+.jaune{
+	color:#e7d405;
+
+}
+
+.blanc{
+	color:#fff;
+
+}
+
+.gris{
+	color:#bfb8aa;
+}
+
+.artiste{
+	font-family:'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+.date{
+	font-family:'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+hr{
+	
+	border-top: 1px solid #e7d405!important;
+}
+p{
+	margin-top:15px;
+}
+
+.bas{
+	border-top: 1px solid #fff;
+	display:block;
+	background-color:#594b3f;
+	height:auto;
+	padding:15px;
+
+}
+.infos{
+	display:inline-block;
+	position:relative;
+	width:75%;
+	font-family:'Montserrat', sans-serif;
+	font-size: 16px; 
+
+}
+.billet{
+	position: relative;
+	float: right;
+	display: block;
+	height: 89px;
+	margin: -15px;
+	width: 100px;
+	background-color: #bfb8aa;
+}
+
+.siteArtiste{
+	display:block;
+	height:auto;
+	color:#fff;
+	
+}
+
+.tel_footer{
+	display:block;
+	background-color:#0f1d26;
+}
+.sociaux{
+	display:block;
+	float:right;
+	position:relative;
+	width: auto;
+	height: auto;
+	margin:15px;
+}
+
+.icone{
+	color:#1d2f3a;
+	font-size:15px;
+	border-radius: 50%;
+	display:inline-block;
+	width: auto;
+	height:auto;
+	background-color: #f2eae4;
+	padding:10px;
+}
+.bouton{
+	display: block;
+	position:relative;
+	background-color:#f2eae4; 
+	width: auto;
+	height:auto;
+	padding:15px 20px;
+	margin-top:20px;
+}
+
+.texteBtn{
+	text-transform: uppercase;
+	color: #1d2f3a; 
+	font-family:'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 18px; 
+}
+/*******************************************************************************************************************************************************/
 @media screen and (max-width: 992px) {
   #sectionProgrammation h1 {
     font-size: 36px; }
